@@ -71,6 +71,7 @@ class Logout(Resource):
 
         return {}, 204
 
+
 api.add_resource(ClearSession, '/clear', endpoint='clear')
 api.add_resource(Signup, '/signup', endpoint='signup')
 api.add_resource(CheckSession, '/check_session', endpoint='check_session')
